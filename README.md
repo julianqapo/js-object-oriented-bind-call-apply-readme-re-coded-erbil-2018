@@ -83,7 +83,7 @@ Okay, what about `apply`? So, this works very similar to `call`, except that `ap
 
 ```js
 greet.apply(sally, ["Terry", "George"]);
-// Hi Terry and George, my name is sally!
+// Hi Terry and George, my name is sally
 ```
 
 Very similar, but we need to wrap the arguments to the `greet` function in brackets to make it an array.  You can remember the difference because `apply` takes an **array** (both begin with the letter a).  You can use either `call` or `apply`.  The only difference is stylistic.
